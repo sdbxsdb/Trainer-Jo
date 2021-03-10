@@ -1,0 +1,606 @@
+.btn {
+  background-color: #fab8c4;
+  border: solid 1px #c788ad;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn:hover {
+  background-color: #c788ad;
+  border: solid 1px pink;
+}
+
+.btn:active {
+  background-color: #fab8c4 !important;
+  border-color: #c788ad !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn:focus {
+  background-color: #fab8c4 !important;
+  border-color: #c788ad !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+nav {
+  width: 100%;
+  background-color: white;
+  border-bottom: solid 2px #725d70;
+}
+
+nav a:hover {
+  color: #fab8c4 !important;
+}
+
+nav .dropdown-menu {
+  background-color: #fab8c4;
+  text-align: center;
+  position: absolute;
+  border-radius: 0 0 10px 10px;
+  left: -35px;
+}
+
+nav .dropdown-item:hover {
+  border-radius: 10px;
+  color: #fab8c4;
+}
+
+nav .dropdown-item:active {
+  background-color: white;
+}
+
+button {
+  margin: 20px auto 0;
+  width: 120px;
+}
+
+#navName {
+  position: relative;
+  top: 15px;
+}
+
+#footer {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+#footer a {
+  color: black !important;
+}
+
+#home #topBanner {
+  height: 85vh;
+  margin: 0;
+  background-size: cover;
+  background-image: url(/img/benchfitness2.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-box-shadow: inset 400px 400px 400px 400px rgba(155, 70, 86, 0.459);
+          box-shadow: inset 400px 400px 400px 400px rgba(155, 70, 86, 0.459);
+}
+
+#home #quote1 {
+  text-align: left;
+}
+
+#home #topBannerText {
+  text-align: center;
+  color: white;
+}
+
+#home #topBannerText h6 {
+  margin: 0 0 40px;
+}
+
+#home .cardInfo {
+  margin: 100px auto;
+  text-align: center;
+}
+
+#home .cardInfo .card-group {
+  margin: 40px 0;
+}
+
+#home .cardInfo .card {
+  border: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  min-height: 500px;
+}
+
+#home #whatIdoImg {
+  background-image: url(/img/kettlebells.png);
+  background-size: cover;
+  background-position: -70px;
+  border-radius: 40px 0 0 40px;
+}
+
+#home #healthyBodyImg {
+  background-image: url(/img/happyrunner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -80px;
+  padding: 0;
+  border-radius: 0 40px 40px 0;
+}
+
+#home h2 {
+  margin: 20px 0;
+}
+
+#home #contact {
+  background-color: #fab8c4;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+#home #contact #contactLogo {
+  position: relative;
+  top: -50px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+#home #contact .contact-image {
+  height: 120px;
+}
+
+#home #contact h3 {
+  padding-bottom: 40px;
+  color: white;
+}
+
+#home #contact textarea {
+  min-height: 150px;
+}
+
+#home #contact #contactAnchor {
+  position: relative;
+  top: -50px;
+}
+
+#about #topBanner {
+  height: 85vh;
+  margin: 0;
+  background-size: cover;
+  background-image: url(/img/resistbands.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-box-shadow: inset 400px 400px 400px 400px rgba(155, 70, 86, 0.459);
+          box-shadow: inset 400px 400px 400px 400px rgba(155, 70, 86, 0.459);
+}
+
+#about #topBannerText {
+  text-align: left;
+  color: white;
+  padding-left: 100px;
+}
+
+#about #topBannerText #topBannerTitle1 {
+  border-bottom: solid 4px #fab8c4;
+  max-width: 175px;
+  line-height: 1.75em;
+}
+
+#about #aboutInfo {
+  margin: 40px auto;
+}
+
+#about #qualiWrapper {
+  padding: 20px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#about h4 {
+  text-align: center;
+  margin: 40px;
+}
+
+#about hr {
+  border: solid 1px #fab8c4;
+}
+
+#about .card {
+  margin: 80px 0;
+}
+
+#about .card-img-bottom {
+  height: 400px;
+}
+
+#about #PTimg {
+  background-image: url(/img/Personal_Trainer_2.jpg);
+  background-size: cover;
+  background-position: 0 -120px;
+}
+
+#about #selfMyoImg {
+  background-image: url(/img/Self-Myofascial-Release-845x321.jpeg);
+  background-position: 0 -22px;
+  background-size: cover;
+}
+
+#about #refImg {
+  background-image: url(/img/exercise-referral-ukactive.jpg);
+  background-size: cover;
+  background-position: 0 -50px;
+}
+
+#onlineclasses #topBanner {
+  height: 85vh;
+  margin: 0;
+  background-size: cover;
+  background-image: url(/img/exercise7.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-box-shadow: inset 400px 400px 400px 400px rgba(155, 70, 86, 0.459);
+          box-shadow: inset 400px 400px 400px 400px rgba(155, 70, 86, 0.459);
+}
+
+#onlineclasses #topBannerText {
+  text-align: left;
+  color: white;
+  padding-left: 100px;
+}
+
+#onlineclasses #topBannerText #topBannerTitle1 {
+  border-bottom: solid 4px #fab8c4;
+  max-width: 175px;
+  line-height: 1.75em;
+}
+
+#onlineclasses h4 {
+  text-align: center;
+  margin: 40px;
+}
+
+#onlineclasses #videoCardsWrapper {
+  margin: 0 auto;
+}
+
+#onlineclasses .card-img-top {
+  height: 125px;
+  max-height: 200px;
+}
+
+#onlineclasses .videoCards {
+  margin: 20px 0;
+}
+
+#onlineclasses .videoCards a {
+  text-decoration: none;
+  color: black;
+}
+
+#onlineclasses .videoCards a:hover {
+  color: #725d70;
+  cursor: pointer;
+}
+
+#onlineclasses #videoImg1 {
+  background-image: url(/img/exercise1.jpg);
+  background-size: cover;
+}
+
+#onlineclasses #videoImg2 {
+  background-image: url(/img/exercise2.jpg);
+  background-size: cover;
+}
+
+#onlineclasses #videoImg3 {
+  background-image: url(/img/exercise3.jpeg);
+  background-size: cover;
+}
+
+#onlineclasses #videoImg4 {
+  background-image: url(/img/exercise4.jpg);
+  background-size: cover;
+}
+
+#onlineclasses #videoImg5 {
+  background-image: url(/img/exercise5.png);
+  background-size: cover;
+}
+
+#onlineclasses #videoImg6 {
+  background-image: url(/img/exercise6.jpg);
+  background-size: cover;
+}
+
+#onlineclasses #videoImg7 {
+  background-image: url(/img/exercise7.jpg);
+  background-size: cover;
+}
+
+#onlineclasses #videoImg8 {
+  background-image: url(/img/exercise8.jpg);
+  background-size: cover;
+}
+
+#onlineclasses .modal-body, #onlineclasses .modal-content {
+  width: 800px;
+}
+
+#onlineclasses .modal-header {
+  text-align: center;
+}
+
+#onlineclasses .modal-content {
+  left: -150px;
+}
+
+#allclasses #topBanner {
+  height: 85vh;
+  margin: 0;
+  background-size: cover;
+  background-image: url(/img/exercise8.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-box-shadow: inset 400px 400px 400px 400px rgba(155, 70, 86, 0.459);
+          box-shadow: inset 400px 400px 400px 400px rgba(155, 70, 86, 0.459);
+}
+
+#allclasses #topBannerText {
+  text-align: left;
+  color: white;
+  padding-left: 100px;
+}
+
+#allclasses #topBannerText #topBannerTitle1 {
+  border-bottom: solid 4px #fab8c4;
+  max-width: 175px;
+  line-height: 1.75em;
+}
+
+#allclasses h4 {
+  text-align: center;
+  margin: 40px;
+}
+
+#allclasses #classesCardsWrapper {
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+#allclasses #classesCardsWrapper a {
+  text-decoration: none;
+  color: black;
+}
+
+#allclasses #classesCardsWrapper a:hover {
+  color: #725d70;
+}
+
+#allclasses #classesCardsWrapper .card-img-top {
+  height: 125px;
+  max-height: 200px;
+}
+
+#allclasses #classesCardsWrapper #classesImg1 {
+  background-image: url(/img/resistbands.jpg);
+  background-size: cover;
+}
+
+#allclasses #classesCardsWrapper #classesImg2 {
+  background-image: url(/img/happyrunner.jpg);
+  background-size: cover;
+}
+
+#allclasses #classesCardsWrapper #classesImg3 {
+  background-image: url(/img/Personal_Trainer_2.jpg);
+  background-size: cover;
+}
+
+#groupOutdoorClasses #topBanner {
+  height: 85vh;
+  margin: 0;
+  background-size: cover;
+  background-image: url(/img/exercise6.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-box-shadow: inset 400px 400px 400px 400px rgba(155, 70, 86, 0.459);
+          box-shadow: inset 400px 400px 400px 400px rgba(155, 70, 86, 0.459);
+}
+
+#groupOutdoorClasses #topBannerText {
+  text-align: left;
+  color: white;
+  padding-left: 100px;
+}
+
+#groupOutdoorClasses #topBannerText #topBannerTitle1 {
+  border-bottom: solid 4px #fab8c4;
+  max-width: 175px;
+  line-height: 1.75em;
+}
+
+#groupOutdoorClasses h4 {
+  text-align: center;
+  margin: 40px;
+}
+
+#groupOutdoorClasses a {
+  margin: 0 auto;
+}
+
+#groupOutdoorClasses #benefitsImg {
+  background-image: url(/img/kettlebells.png);
+}
+
+#groupOutdoorClasses .cardInfo {
+  margin: 100px auto;
+  text-align: center;
+}
+
+#groupOutdoorClasses .cardInfo h2 {
+  margin-top: 40px;
+}
+
+#groupOutdoorClasses .cardInfo .card-group {
+  margin: 40px 0;
+}
+
+#groupOutdoorClasses .cardInfo .card {
+  border: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  min-height: 500px;
+}
+
+#groupOutdoorClasses #benefitsImg {
+  background-image: url(/img/benchfitness2.png);
+  background-size: cover;
+  background-position: -70px;
+  border-radius: 40px 0 0 40px;
+}
+
+#groupOutdoorClasses #typesImg {
+  background-image: url(/img/exercise4.jpg);
+  background-size: cover;
+  border-radius: 0 40px 40px 0;
+}
+
+#Training #topBanner {
+  height: 85vh;
+  margin: 0;
+  background-size: cover;
+  background-image: url(/img/Personal_Trainer_2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-box-shadow: inset 400px 400px 400px 400px rgba(155, 70, 86, 0.459);
+          box-shadow: inset 400px 400px 400px 400px rgba(155, 70, 86, 0.459);
+}
+
+#Training #topBannerText {
+  text-align: left;
+  color: white;
+  padding-left: 100px;
+}
+
+#Training #topBannerText #topBannerTitle1 {
+  border-bottom: solid 4px #fab8c4;
+  max-width: 175px;
+  line-height: 1.75em;
+}
+
+#Training h4 {
+  text-align: center;
+  margin: 40px;
+}
+
+#Training a {
+  margin: 0 auto;
+}
+
+#Training #TrainingbenefitsImg {
+  background-image: url(/img/kettlebells.png);
+}
+
+#Training .cardInfo {
+  margin: 100px auto;
+  text-align: center;
+}
+
+#Training .cardInfo h2 {
+  margin-top: 40px;
+}
+
+#Training .cardInfo .card-group {
+  margin: 40px 0;
+}
+
+#Training .cardInfo .card {
+  border: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  min-height: 500px;
+}
+
+#Training #TrainingbenefitsImg {
+  background-image: url(/img/benchfitness2.png);
+  background-size: cover;
+  background-position: -70px;
+  border-radius: 40px 0 0 40px;
+}
+
+#Training #TrainingtypesImg {
+  background-image: url(/img/benchfitness.jpg);
+  background-size: cover;
+  background-position: -70px;
+  border-radius: 0 40px 40px 0;
+}
+
+#Training #TrainingdietImg {
+  background-image: url(/img/exercise5.png);
+  background-size: cover;
+  background-position: -70px;
+  border-radius: 40px 0 0 40px;
+}
+
+#booking #topBanner {
+  height: 85vh;
+  margin: 0;
+  background-size: cover;
+  background-image: url(/img/booking.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-box-shadow: inset 400px 400px 400px 400px rgba(155, 70, 86, 0.459);
+          box-shadow: inset 400px 400px 400px 400px rgba(155, 70, 86, 0.459);
+}
+
+#booking #topBannerText {
+  text-align: left;
+  color: white;
+  padding-left: 100px;
+}
+
+#booking #topBannerText #topBannerTitle1 {
+  border-bottom: solid 4px #fab8c4;
+  max-width: 230px;
+  line-height: 1.75em;
+}
+
+#booking #bookAClassHeading {
+  text-align: center;
+}
+
+#booking #bookAClassHeading h4 {
+  text-align: center;
+  margin: 60px 0 0;
+}
+
+#booking a {
+  margin: 0 auto;
+}
+
+#booking #TrainingbenefitsImg {
+  background-image: url(/img/kettlebells.png);
+}
+
+#booking #bookingSystem {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#booking #bookingSystem iframe {
+  width: 100%;
+  height: 600px;
+}
+
+#booking #bookingSystem #coverGoogleLogo {
+  width: 99.9%;
+  height: 30px;
+  background-color: #e3e9ff;
+  margin-top: -38px;
+  position: relative;
+  z-index: 1;
+  border-left: solid 1px black;
+}
+/*# sourceMappingURL=app.css.map */
